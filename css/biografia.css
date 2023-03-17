@@ -1,0 +1,70 @@
+.box-1{
+    width: 500px;
+    margin: 20px;
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: justify;
+    font-size: 1.3em;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1.4;
+    font-size: 43m;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 900;
+
+}
+.box-2{
+    width: 500px;
+    margin: 20px;
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: justify;
+    font-size: 1.5em;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1.4;
+    font-size: 43m;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 900;
+}
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-vintage-cafe_196038-6548.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%; ;
+    color: black;
+}
+a{
+    display:flex;
+flex-direction: column;
+    width: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight:bolder;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin: 5px;
+    text-align: center;
+    color: #ffff;
+    text-decoration:solid;
+}
+img{
+display: inline-block;
+margin: 2px;
+padding: 10px;
+background-size: 2em;
+width: 200px;
+top: 200px;
+right: 200px;
+left: 200px;
+
+}
+h1{
+    color: #000;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}

@@ -1,0 +1,29 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-vintage-cafe_196038-6548.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%; ;
+    color: black;
+}
+a{
+    display:flex;
+    flex-direction: column;
+        width: 100px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        font-weight:bolder;
+        background-color: black;
+        border-radius: 20px;
+        padding: 15px 30px;
+        margin: 5px;
+        text-align: center;
+        color: #ffff;
+        text-decoration:solid;
+}
+h1{
+    color: #000;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: italic;
+}
