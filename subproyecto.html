@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subproyecto</title>
+    <link rel="stylesheet" href="css/subproyecto.css">
+    <script src="js/subproyecto.js"></script>
+</head>
+<body>
+    <h1>SUBCOFFEE</h1>
+
+    <div class="e">
+    <h2>NOMBRE SUBPROYECTO
+    <input type="text" id="Nombre">
+    </h2>
+<!--se utilizo esta class para separar y si se desea elaborar una propiedad-->
+    <div class="a">
+    <input type="text" id="pro1" placeholder="Nombre producto">
+    <input type="number" id="cant" placeholder="cantidad">
+    <input type="number" id="valoru" placeholder="v.unitario">
+<!--conector de la multiplicacion-->
+    <p id="total"></p>
+    </div>
+        
+    <div class="a">
+    <input type="text" id="pro2" placeholder="Nombre producto">
+    <input type="number" id="canti" placeholder="cantidad">
+    <input type="number" id="valor" placeholder="v.unitario">
+    <!--conector de la multiplicacion-->
+    <p id="total2"></p>
+    </div>
+    <hr>
+    <!--conector de la suma total, suma entre el pro1 y pro2-->
+    <div class="a"><p id="valortotal"></p></div>
+    </div>
+
+
+    <button class="boton" onclick="valor()">Valor total</button> 
+
+
+    <!--tabbla para elaborar la factura y sus propiedades -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre Producto</th>
+                <th>Cantidad</th>
+                <th>V.unitario</th>
+                <th>Valor Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--se utiliza estos id para conectar los precios y nombre-- id pro-->
+            <tr>
+                <td>
+                    <p id="respuesta"></p>
+                </td>
+                <td>
+                    <p id="cantidad"></p>
+                </td>
+                <td>
+                    <p id="unitario"></p>
+                </td>
+                <td>
+                    <p id="valort"></p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p id="respuesta-2"></p>
+                </td>
+                <td>
+                    <p id="cantidad-2"></p>
+                </td>
+                <td>
+                    <p id="unitario-2"></p>
+                </td>
+                <td>
+                    <p id="totav"></p>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3">TOTAL</th>
+                <td>
+                    <p id="valor3"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="boton" onclick="factura()">Factura</button>
+    
+    <a href="index.html" class="btn-neon">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+    inicio
+      </a>
+
+</html>

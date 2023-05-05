@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ficha Tecnica </title>
+    <link rel="stylesheet" href="css/ficha.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <h1> Formato de ficha tecnica </h1>
+    <h3> Caractceristicas del producto </h3>
+    <p>
+        <input type="text" id="nom_product" placeholder="nombre del producto">
+    </p>
+    <p id="resproduct"> 
+    </p>
+
+
+    <p>
+        <input type="text" id="li_product" placeholder="linea de produccion"> 
+    </p>
+    <p id="resli">
+    </p>
+
+    <p>
+        <input type="text" id="ver_product" placeholder="versiones anteriores del producto">
+    </p>
+    <p id="resver">
+    </p>
+
+    <p> 
+        <input type="text" id="act_product" placeholder="version actual del producto">
+    </p>
+    <p id="resact">
+    </p>
+
+    <p>
+        <input type="text" id="mod_product" placeholder="modulo">
+    </p>
+    <p id="resmod">
+    </p>
+
+    <h3> Descripción del producto </h3>
+   <p>
+    <input type="text" id="des_product" placeholder="descripcion del peroducto">
+   </p>
+   <p id="resdes">
+   </p>
+    
+   <p>
+    <input type="text" id="obj_product" placeholder="objetivo del producto">
+   </p>
+   <p id="resobj">
+   </p>
+
+   <h3>Arquitectura </h3>
+   <p>
+    <input type="text" id="arq_product" placeholder="descripcion del producto">
+   </p>
+   <p id="resarq">
+   </p>
+
+   <h3>Requerimiento del producto</h3>
+   <h5>Requisitos del producto (servidor)</h5>
+   <p>
+    <input type="text" id="har_product" placeholder="requerimientos fisicos minimos">
+   </p>
+   <p id="reshar">    
+   </p>
+   <p>
+    <input type="text" id="sof_product" placeholder="requerimientos logicos necesarios">
+   </p>
+   <p id="ressof">
+   </p>
+   <p>
+    <input type="text" id="otr_product" placeholder="recomendaciones">
+   </p>
+   <p id="resotr"></p>
+   <h5>Requisitos del producto (cliente)</h5>
+   <p>
+    <input type="text" id="cli_product" placeholder="requerimientos fisicos minimos">
+   </p>
+   <p id="rescli"></p>
+   <p>
+    <input type="text" id="log_product" placeholder="requerimiento logico necesario">
+   </p>
+   <p id="reslog"></p>
+   <p>
+    <input type="text" id="apl_product" placeholder="recomendaciones">
+   </p>
+   <p id="resapl"></p>
+   <h3>Requerimientos</h3>
+   <p>
+    <input type="text" id="fun_product" placeholder="funciones del sistema">
+   </p>
+   <p id="resfun"></p>
+   <p>
+    <input type="text" id="adi_product" placeholder="funcionalidades adicionales">
+   </p>
+   <p id="resadi"></p>
+   <p>
+    <input type="text" id="car_product" placeholder="caracteristicas del producto">
+   </p>
+   <p id="rescar"></p>
+
+   <h3> Historial de modificaciones </h3>
+
+   <table> 
+        <tr>
+            <th> Versión </th>
+            <th>  Naturaleza del cambio </th>
+            <th> Fecha aprovación </th>
+            <th> Fecha validación </th>
+        <tr>
+            <td> 00  </td>
+            <td> Actualizacion documento </td>
+            <td> 25/05/2021 </td>
+            <td> 25/06/2021 </td>
+        <tr>
+            <td> 01 </td>
+            <td> Actualizacion documento </td>
+            <td> 25/07/2021 </td>
+            <td> 25/08/2021 </td>
+    </table>
+
+    <h3>Firmas</h3>
+
+    <table>
+        
+        <tr>
+            <th class="tabla2">Elaboró</th>
+            <th class="tabla2">Aprobó</th>
+            <th class="tabla2">Validó</th>
+        
+            <tr>
+                <td class="tabla4"></td>
+                <td class="tabla4"></td>
+                <td class="tabla4"></td>
+        
+        <tr>
+            <td class="tabla"> Firma </td>
+            <td class="tabla"> Firma </td>
+            <td class="tabla"> Firma </td>
+
+        <tr>
+            <td class="tabla3">Fecha</td>
+            <td class="tabla3">Fecha</td>
+            <td class="tabla3">Fecha</td>    
+        </div>
+
+    </table>
+
+    
+     
+    <P> 
+        <button onclick="getficha()"> Enviar </button>
+    </P>
+    <a href="index.html" class="btn-neon2">
+        <span id="span5"></span>
+        <span id="span6"></span>
+        <span id="span7"></span>
+        <span id="span8"></span>
+        inicio
+      </a>
+</body>
+</html>

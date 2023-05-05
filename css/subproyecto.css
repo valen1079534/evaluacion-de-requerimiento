@@ -1,0 +1,136 @@
+h2{
+    font-size: 1em;
+    font-weight: 100;
+}
+input{
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.e{
+    border: 2px solid black;
+    width: 700px;
+    padding: 10px;
+    margin-left: 300px;
+    background-color: rgb(238, 255, 152);
+}
+h1{
+    text-align: center;
+}
+
+table{
+    border:  1px solid black;
+    border-collapse: collapse;
+    margin-left: 425px;
+    background-color: transparent;
+}
+th{
+    border:  1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: bisque;
+} 
+td{
+    border:  1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+tr{
+    border:  1px solid black;
+    border-collapse: collapse;
+}
+.boton{
+    margin-left: 620px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: 700;
+    border: 2px solid black;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: white;
+}
+body{
+    background-color: silver;
+}
+hr{
+    border-color: black;
+}
+
+.btn-neon{
+    margin: 20px;
+    position: relative;
+    display:inline-block;
+    padding: 15px 30px;
+    color: #000000;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: #CD5C5C;
+    box-shadow: 0 0 10px #CD5C5C, 0 0 40px #CD5C5C, 0 0 80px #CD5C5C;
+    transition-delay: 1s;
+}
+.btn-neon:hover span{
+    position: absolute;
+    display:block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #CD5C5C);
+}
+.btn-neon:hover #span1{
+   left: 100%;
+   transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%; 
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #CD5C5C);
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #CD5C5C);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom:-100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #CD5C5C);
+}
+.btn-neon:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.btn-neon{
+    display: inline-block;
+    margin-right: 50%;
+    justify-content: center;
+}
